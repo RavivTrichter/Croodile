@@ -1,0 +1,39 @@
+{
+  "name": "Crocodile",
+  "version": "1.0.0",
+  "description": "1. Clone this repository to your PC\r 2. Create a new branch in github based on the master branch\r 3. In your PC Move to that branch and work on it (you might have to PULL before)\r 4. Commit your code to that branch\r 5. Push to that branch **( not the master branch!)**\r 6. Go into github and create a pull request from the branch you opened to master",
+  "main": "server.js",
+  "module": "main.js",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abziz/Crocodile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abziz/Crocodile/issues"
+  },
+  "homepage": "https://github.com/Abziz/Crocodile#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.22",
+    "express": "^4.17.1",
+    "form-serialize": "^0.7.2",
+    "http": "0.0.0",
+    "node-fetch": "^2.6.0",
+    "phaser": "^3.17.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11",
+    "parcel-bundler": "^1.12.3"
+  }
+}
